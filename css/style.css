@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
 @font-face {
     font-family: 'king_arthur_legendregular';
     src: url('../fonts/king_arthur_legend-webfont.eot');
@@ -12,8 +12,24 @@
 
 }
 
+@font-face {
+  font-family: 'Ringbearer-Medium';
+    src:  url('../fonts/Ringbearer-Medium.ttf.woff') format('woff'),
+    url('../fonts/Ringbearer-Medium.ttf.svg#Ringbearer-Medium') format('svg'),
+    url('../fonts/Ringbearer-Medium.ttf.eot'),
+    url('../fonts/Ringbearer-Medium.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .pg-logo {
-  font-family: 'king_arthur_legendregular' !important;
+  font-family: 'Ringbearer-Medium' !important;
+}
+
+.bottom-column {
+    float: none;
+    display: table-cell;
+    vertical-align: bottom;
 }
 
 .header-container {
@@ -33,9 +49,10 @@
 }
 
 .imglayer {
-  position:absolute;
+  position:relative;
   top: 0px;
   left: 0px;
+  width: 100%;
 }
 
 #imga
@@ -79,13 +96,13 @@ video {
 }
 
 .px-intro {
-  font-family: 'king_arthur_legendregular' !important;
+  font-family: 'Ringbearer-Medium' !important;
   color: #FFF !important;
   text-transform: none;
 }
 
 .px-codex {
-  font-family: 'king_arthur_legendregular' !important;
+  font-family: 'Ringbearer-Medium' !important;
   color: #363636 !important;
   text-transform: none;
 }
@@ -93,6 +110,7 @@ video {
 .px-white {
   font-family: 'Open Sans', sans-serif !important;
   color: #FFF !important;
+  font-size: 1.25em;
   text-transform: none;
 }
 
