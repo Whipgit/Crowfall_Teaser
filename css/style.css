@@ -60,17 +60,15 @@ height: 550px;
 
 .header-cover {
   position: absolute;
-  top: 0%;
+  bottom: 0%;
   left: 0%;
-  height: 100%;
   width: 100%;
   overflow: hidden;
 }
 
 .header-cover img {
-  position: absolute;
+  position: relative;
   width: 100%;
-  bottom: 0px;
 }
 
 video {
@@ -84,9 +82,22 @@ video {
   color: #FFF !important;
   text-transform: none;
 }
+
+.px-codex {
+  font-family: 'king_arthur_legendregular' !important;
+  color: #363636 !important;
+  text-transform: none;
+}
+
 .px-white {
   font-family: 'Open Sans', sans-serif !important;
   color: #FFF !important;
+  text-transform: none;
+}
+
+.px-black {
+  font-family: 'Open Sans', sans-serif !important;
+  color: #363636 !important;
   text-transform: none;
 }
 
