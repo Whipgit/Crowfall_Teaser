@@ -18,7 +18,7 @@
 
 .header-container {
   width: 100%;
-  height: 778px;
+  max-height: 778px;
   border-left: none;
   border-right: none;
   position: relative ;
@@ -50,7 +50,7 @@ height: 550px;
 
 
 .video-container {
-  position: absolute;
+  position: relative;
   top: 0%;
   left: 0%;
   height: 100%;
@@ -72,9 +72,10 @@ height: 550px;
 }
 
 video {
-  position: absolute;
+  position: relative;
   z-index: -1;
   width: 100%;
+  height:auto;
 }
 
 .px-intro {
