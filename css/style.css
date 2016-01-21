@@ -1,71 +1,62 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
 @font-face {
-    font-family: 'king_arthur_legendregular';
-    src: url('../fonts/king_arthur_legend-webfont.eot');
-    src: url('../fonts/king_arthur_legend-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/king_arthur_legend-webfont.woff2') format('woff2'),
-         url('../fonts/king_arthur_legend-webfont.woff') format('woff'),
-         url('../fonts/king_arthur_legend-webfont.ttf') format('truetype'),
-         url('../fonts/king_arthur_legend-webfont.svg#king_arthur_legendregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'king_arthur_legendregular';
+  src: url('../fonts/king_arthur_legend-webfont.eot');
+  src: url('../fonts/king_arthur_legend-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/king_arthur_legend-webfont.woff2') format('woff2'), url('../fonts/king_arthur_legend-webfont.woff') format('woff'), url('../fonts/king_arthur_legend-webfont.ttf') format('truetype'), url('../fonts/king_arthur_legend-webfont.svg#king_arthur_legendregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
   font-family: 'Ringbearer-Medium';
-    src:  url('../fonts/Ringbearer-Medium.ttf.woff') format('woff'),
-    url('../fonts/Ringbearer-Medium.ttf.svg#Ringbearer-Medium') format('svg'),
-    url('../fonts/Ringbearer-Medium.ttf.eot'),
-    url('../fonts/Ringbearer-Medium.eot?#iefix') format('embedded-opentype');
-    font-weight: normal;
-    font-style: normal;
+  src: url('../fonts/Ringbearer-Medium.ttf.woff') format('woff'), url('../fonts/Ringbearer-Medium.ttf.svg#Ringbearer-Medium') format('svg'), url('../fonts/Ringbearer-Medium.ttf.eot'), url('../fonts/Ringbearer-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
-
 .pg-logo {
   font-family: 'Ringbearer-Medium' !important;
 }
-
 .bottom-column {
-    float: none;
-    display: table-cell;
-    vertical-align: bottom;
+  float: none;
+  display: table-cell;
+  vertical-align: bottom;
 }
-
 .header-container {
   width: 100%;
   max-height: 778px;
   border-left: none;
   border-right: none;
-  position: relative ;
+  position: relative;
 }
-
-.quotebox {
+.lore-banner img {
   width: 100%;
-  height: 452px;
   border-left: none;
   border-right: none;
-  position: relative ;
+  position: relative;
 }
-
+.quotebox {
+  width: 100%;
+  height: auto;
+  border-left: none;
+  border-right: none;
+  position: relative;
+}
 .imglayer {
-  position:relative;
+  position: relative;
   top: 0px;
   left: 0px;
   width: 100%;
 }
-
-#imga
-{
-z-index: 20;
+.imglayer img {
+  position: relative;
+  width: 100%;
 }
-#imgb
-{
-z-index: 10;
-height: 550px;
+#imga {
+  z-index: 20;
 }
-
-
+#imgb {
+  z-index: 10;
+  height: 550px;
+}
 .video-container {
   position: relative;
   top: 0%;
@@ -74,7 +65,6 @@ height: 550px;
   width: 100%;
   overflow: hidden;
 }
-
 .header-cover {
   position: absolute;
   bottom: 0%;
@@ -82,44 +72,38 @@ height: 550px;
   width: 100%;
   overflow: hidden;
 }
-
 .header-cover img {
   position: relative;
   width: 100%;
 }
-
 video {
   position: relative;
   z-index: -1;
   width: 100%;
-  height:auto;
+  height: auto;
 }
-
 .px-intro {
   font-family: 'Ringbearer-Medium' !important;
   color: #FFF !important;
   text-transform: none;
 }
-
-.px-codex {
+.px-lore {
   font-family: 'Ringbearer-Medium' !important;
   color: #363636 !important;
   text-transform: none;
 }
-
 .px-white {
   font-family: 'Open Sans', sans-serif !important;
   color: #FFF !important;
   font-size: 1.25em;
   text-transform: none;
 }
-
 .px-black {
   font-family: 'Open Sans', sans-serif !important;
   color: #363636 !important;
   text-transform: none;
+  font-size: 1.25em;
 }
-
 .bg-px-brown {
   background-color: #2a130e !important;
   padding-bottom: 50px;
